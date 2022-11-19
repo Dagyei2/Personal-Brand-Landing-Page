@@ -1,0 +1,44 @@
+/*Universal Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #262626 !important;
+}
+
+
+body {
+    min-height: 100vh;
+
+
+}
+
+
+/* Shared Styles */
+.karla{
+    font-family: 'Karla', sans-serif;
+}
+
+
+.lexend-deca{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.spacing-ht-30{
+    height:30px;
+}
+/* Nav */
+
+#brand-nav-links {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/*Media Breakpoints */
+@media (min-width:1499px){
+    #main-margin {
+        margin-top:55px;
+    }
+}
