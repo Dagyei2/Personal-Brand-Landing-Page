@@ -35,6 +35,9 @@ body {
     font-weight: 500;
 }
 
+.dropdown-menu li a:active {
+background-color: inherit;
+}
 
 /*Media Breakpoints */
 @media (min-width:1499px){
@@ -42,3 +45,4 @@ body {
         margin-top:55px;
     }
 }
+
