@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #262626 !important;
-}
+    color: #333342 !important;
+    font-family: 'DM Sans', sans-serif;
 
+}
 
 body {
     min-height: 100vh;
@@ -14,35 +15,30 @@ body {
 
 }
 
-
-/* Shared Styles */
-.karla{
-    font-family: 'Karla', sans-serif;
+main{
+   max-width:800px;
+   margin:0 auto;
 }
 
-
-.lexend-deca{
-    font-family: 'Lexend Deca', sans-serif;
+main h4{
+    font-weight:600;
 }
 
-.spacing-ht-30{
-    height:30px;
-}
-/* Nav */
-
-#brand-nav-links {
-    font-size: 18px;
+main h6 {
     font-weight: 500;
 }
 
-.dropdown-menu li a:active {
-background-color: inherit;
+
+/*Spacing */
+.vertical-spacing-8{
+    height:8px;
 }
 
-/*Media Breakpoints */
-@media (min-width:1499px){
-    #main-margin {
-        margin-top:55px;
-    }
+.vertical-spacing-16{
+    height:16px;
 }
 
+
+.vertical-spacing-24{
+    height:24px;
+}
