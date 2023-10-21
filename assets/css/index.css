@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333342 !important;
+    color: #262626 !important;
     font-family: 'DM Sans', sans-serif;
 
 }
@@ -20,14 +20,33 @@ main{
    margin:0 auto;
 }
 
-main h4{
+main h4, main h6{
     font-weight:600;
 }
 
-main h6 {
+
+main h4, main h6,  main p{
+    margin-bottom:0px;
+}
+
+#intro-subheader{
     font-weight: 500;
 }
 
+.resume-container, .skills-container{
+    border-bottom:1px solid #D9D9D9;
+    padding: 30px 0px 40px 0px;
+
+}
+
+.resume-date {
+    font-weight:400;
+    margin-bottom: 12px;
+}
+
+span{
+    font-weight: 400;
+}
 
 /*Spacing */
 .vertical-spacing-8{
@@ -41,4 +60,26 @@ main h6 {
 
 .vertical-spacing-24{
     height:24px;
+}
+
+
+.vertical-spacing-32{
+    height:32px;
+}
+
+
+.vertical-spacing-40{
+    height:40px;
+}
+
+.vertical-spacing-48{
+    height:48px;
+}
+
+.vertical-spacing-54{
+    height:54px;
+}
+
+.vertical-spacing-60{
+    height:60px;
 }
