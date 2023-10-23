@@ -17,14 +17,20 @@
 </head>
 
 
+<!---- To Do
+1. Add line height to software development section
+2. add either margin or padding to the body class ... also change the  name
+3. Make sure it's responsive, use ngrok to test on phone
 
-<body>
 
 
+-->
+
+<body class="test-size">
 
     <main>
         <div class="vertical-spacing-8"> </div>
-        <section class="container intro-container">
+        <section class="intro-container">
             <img src="/assets/illustrations/figma-bitmoji.svg" alt="an image of myself">
             <div class="vertical-spacing-24"> </div>
 
@@ -41,72 +47,121 @@
                 software design, and software development.</p>
         </section>
         <div class="vertical-spacing-60"> </div>
-        <section class="container">
-            <h4>Resume</h4>
-            <section class="resume-container">
-                <h6 class="resume-date">Jan 2023 - Present</h6>
+        <section>
+            <h4>Experience</h4>
+            <section class="experience-container">
+                <h6 class="experience-date">Jan 2023 - Present</h6>
                 <h6>IT Support Engineer, Variantyx</h6>
             </section>
-            <section class="resume-container">
-                <h6 class="resume-date">Jan 2021 - Jun 2022</h6>
+            <section class="experience-container">
+                <h6 class="experience-date">Jan 2021 - Jun 2022</h6>
                 <h6>Career Hiatus, Health and Well-being</h6>
             </section>
-            <section class="resume-container">
-                <h6 class="resume-date">May 2018 - Jan 2021</h6>
+            <section class="experience-container">
+                <h6 class="experience-date">May 2018 - Jan 2021</h6>
                 <h6>IT Support Engineer, Digital Federal Credit Union</h6>
             </section>
-            <section class="resume-container">
-                <h6 class="resume-date">May 2017 - Sept 2017</h6>
+            <section class="experience-container">
+                <h6 class="experience-date">May 2017 - Sept 2017</h6>
                 <h6>Project Management Intern, Digital Federal Credit Union</h6>
             </section>
-            <section class="resume-container">
-                <h6 class="resume-date">Aug 2016 - May 2017</h6>
+            <section class="experience-container">
+                <h6 class="experience-date">Aug 2016 - May 2017</h6>
                 <h6>Computer Lab Engineer, UMass Lowell (Mahoney Hall Lab)</h6>
             </section>
         </section>
         <div class="vertical-spacing-60"> </div>
-        <section class="container">
+        <section>
             <h4>Skills</h4>
             <section class="skills-container">
                 <h6>Technical</h6>
-                <div class="vertical-spacing-24"> </div>
-                <h6>Product Management: <span>Scrum, Kanban</span></h6>
-                <div class="vertical-spacing-8"> </div>
-                <h6>Sofware Design: <span>Adobe Illustrator, Figma, Sketch, Design Methodologies</span></h6>
-                <div class="vertical-spacing-8"> </div>
-
-                <h6>Sofware Development: <span>HTML5, CSS3, JavaScript, React, Next.js, Node.js, Tailwind CSS, Bootstrap, Git, MongoDB, SQL, Postman, REST APIs, AWS(S3, Lamba, EventBridge), GCP(Cloud Functions, Cloud Scheduler)</span></h6>
+                <div class="vertical-spacing-16"> </div>
+                <h6>Product Management: <span class="skills-span">Scrum, Kanban</span></h6>
+                <div class="vertical-spacing-16"> </div>
+                <h6>Sofware Design: <span class="skills-span">Adobe Illustrator, Figma, Sketch, Design
+                        Methodologies</span></h6>
+                <div class="vertical-spacing-16"> </div>
+                <h6>Sofware Development: <span class="skills-span">HTML5, CSS3, JavaScript, React, Next.js, Node.js,
+                        Tailwind CSS,
+                        Bootstrap, Git, MongoDB, SQL, Postman, REST APIs, AWS(S3, Lamba, EventBridge), GCP(Cloud
+                        Functions, Cloud Scheduler)</span></h6>
 
             </section>
             <section class="skills-container">
-                <h6>Technical</h6>
-                <div class="vertical-spacing-40"> </div>
-                <h6>Product Management: <span>Scrum, Kanban</span></h6>
-                <div class="vertical-spacing-8"> </div>
-                <h6>Sofware Design: <span>Adobe Illustrator, Figma, Sketch, Design Methodologies</span></h6>
-                <div class="vertical-spacing-8"> </div>
-
-                <h6>Sofware Development: <span>HTML5, CSS3, JavaScript, React, Next.js, Node.js, Tailwind CSS, Bootstrap, Git, MongoDB, SQL, Postman, REST APIs, AWS(S3, Lamba, EventBridge), GCP(Cloud Functions, Cloud Scheduler)</span></h6>
-
+                <h6>Soft</h6>
+                <div class="vertical-spacing-16"> </div>
+                <span class="skills-span">Proactive, Problem-solver, Organized, Practical, Team Player, Understanding,
+                    Transparent</span>
             </section>
-            <section>
 
+            <section class="skills-container">
+                <h6>Certs</h6>
+                <div class="vertical-spacing-16"> </div>
+                <h6>Codecademy: <span class="skills-span">Web Development Career Path, Building Interactive JavaScript
+                        Websites Course</span>
+                </h6>
             </section>
-            <section></section>
-            <section></section>
-
         </section>
-        <section class="container">
+        <div class="vertical-spacing-60"> </div>
+
+        <section>
+            <h4>Projects</h4>
+            <section class="projects-container">
+                <div class="d-flex align-items-center ">
+                    <img src="/assets/icons/green-logo.svg" width="16" height="16" alt="grwcare-logo">
+                    <h6 class="ps-1 pe-2">GrwCare</h6>
+                    <span class="projects-span">In Progress</span>
+                </div>
+
+                <div class="vertical-spacing-8"> </div>
+                <div class="d-flex align-items-center">
+                    <span class="pe-2">An online marketplace that connects people and organizations to local plant
+                        services <a href="https://grwcare.com/" target="_blank"> <img
+                            src="/assets/icons/arrow-up-right-from-square-solid.svg" width="14" height="14"
+                            alt="open-page-in-a-new-tab-icon">
+                    </a></span>
+                </div>
+            </section>
+
+            <section id="afrobeats-project-container">
+                <div class="d-flex align-items-center ">
+                    <img src="/assets/icons/africa-emoji.png" width="16" height="16" alt="africa-emoji">
+                    <h6 class="ps-1 pe-2">AfrobeatsBot</h6>
+                    <span class="projects-span">In Progress</span>
+                </div>
+
+                <div class="vertical-spacing-8"> </div>
+                <div>
+                    <span class="pe-2">A X bot that discovers Afrobeats songs and playlists <a href="https://twitter.com/AfrobeatsBot" target="_blank"> <img
+                        src="/assets/icons/arrow-up-right-from-square-solid.svg" width="14" height="14"
+                        alt="open-page-in-a-new-tab-icon">
+                </a></span>
+
+                  
+
+                </div>
+            </section>
+
 
         </section>
 
 
     </main>
 
+    <div class="vertical-spacing-80"></div>
 
-
-    <footer>
-
+    <footer class="d-flex align-items-center justify-content-between">
+        
+            <h6><span>&copy;</span> Built by Darwin Agyei</h6>
+        
+            <section>
+                <a href="https://airtable.com/appIXH6qKbxrrMMqy/shrunYl4msoj6gwHa" class="pe-3" target="_blank"> <img src="/assets/icons/envelope-solid.svg" width="24" height="24"
+                    alt="email-icon"></a>
+                <a href="https://github.com/darwinagyei" target="_blank" class="pe-3"> <img src="/assets/icons/github.svg" width="24" height="24" alt="github-icon"></a>
+                <a href="https://www.linkedin.com/in/darwin-agyei/" target="_blank"> <img src="/assets/icons/linkedin.svg" width="24" height="24"
+                    alt="linkedln-icon">
+            </a>
+            </section>
     </footer>
 
 
