@@ -9,9 +9,10 @@
 
 body {
     min-height: 100vh;
+  
 }
 
-.test-size{
+.body-container{
    max-width:800px;
    margin:0 auto;
    padding:12px;
@@ -35,6 +36,10 @@ main h4, main h6,  main p{
     border-bottom:1px solid #D9D9D9;
     padding: 30px 0px 40px 0px;
 
+}
+
+.experience-container h6, .skills-span{
+    line-height:24px;
 }
 
 #afrobeats-project-container {
@@ -63,8 +68,6 @@ main h4, main h6,  main p{
 footer{
     border-top:1px solid #D9D9D9;
     padding: 20px 0px 8px 0px;
-
-
 
 }
 /*Spacing */
