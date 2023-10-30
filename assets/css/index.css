@@ -28,9 +28,7 @@ main h4, main h6,  main p{
     
 }
 
-#intro-subheader{
-    font-weight: 500;
-}
+
 
 .experience-container, .skills-container, .projects-container{
     border-bottom:1px solid #D9D9D9;
